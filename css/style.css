@@ -17,6 +17,21 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
     --text-h:  #212121;
     --background-btn-still: #F5F4FA;
 }
+html {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -28,7 +43,11 @@ body {
     color: var(--main-text);
     background-color: var(--background-color);
 }
-
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 a {
     font-family: inherit;
     text-decoration: none;
@@ -62,12 +81,47 @@ a.logo {
     color: var(--spacial-text);
 }
 
-.logo>span {
+.logo span {
 
     color: var(--fill);
 }
 
 /* Header */
+
+/* header {
+    display: flex;
+    min-width:  1600px;
+    height: 80px;
+    align-items: center;
+    /* background-color: coral; */
+}
+
+.navigation {
+    background-color: yellow;
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+.nav-items .item:not(:last-child) {
+
+    margin-right: 50px;
+}
+
+.nav-items {
+    display: flex;
+}
+.nav-items .item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: yellow;
+}
+.header-contacts {
+    display: flex;
+} 
+
 
 .current-page {
     color: var(--fill);
@@ -80,6 +134,11 @@ a.logo {
     letter-spacing: 0.02em;
 
     color: var(--main-text);
+}
+
+.header-contacts .item + .item {
+
+    margin-left: 50px;
 }
 
 nav a {
@@ -190,11 +249,17 @@ address {
 
     color: var(--background-color);
 }
+.logo span:nth-child(2) {
+
+    color: var(--background-color);
+}
 
 .contacts a {
-
     color: rgba(255, 255, 255, 0.6);
+   
 }
+
+ 
 
 
 
