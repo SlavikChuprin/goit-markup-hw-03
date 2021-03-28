@@ -1,0 +1,240 @@
+/* background: #FFFFFF;
+color WEB, font header active, background btn: #2196F3;
+color STUDIO, HERO, adress  #000000;
+color font header still, h2,h3: #212121;
+color tel.header, p: #757575;
+color email, tel. footer: rgba(255, 255, 255, 0.6); */
+
+
+/* Main */
+
+:root {
+    --background-color: #ffffff;
+    --background-secondary: #2F303A;
+    --fill: #2196F3;
+    --main-text:#757575;
+    --spacial-text: #000000;
+    --text-h:  #212121;
+    --background-btn-still: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-text);
+    background-color: var(--background-color);
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+    color: var(--main-text);
+}
+ 
+
+a:hover,
+a:focus {
+    
+    color: var(--fill);
+}
+
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+/* Logo */
+
+a.logo {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--spacial-text);
+}
+
+.logo>span {
+
+    color: var(--fill);
+}
+
+/* Header */
+
+.current-page {
+    color: var(--fill);
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text);
+}
+
+nav a {
+
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    color: var(--text-h);
+
+}
+/* Hero */
+
+h1 {
+
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--background-color);
+}
+.hero, 
+footer{
+    background-color: var(--background-secondary);
+}
+
+.btn-serves-reserved {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+   
+    color: var(--background-color);
+    background-color: var(--fill);
+} 
+
+/* Features */
+.features-list h3 {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-h);
+}
+.features-list p {
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text);
+}
+
+/* WHAT DO WE DO */
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+     
+    color: var(--text-h);
+}
+
+/* OUR TEAM  */
+.our-team-section {
+    background-color: var(--background-btn-still);
+}
+
+.our-team-list h3 {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--text-h);
+}
+
+.our-team-list p {
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: var(--main-text);
+}
+
+/* Footer */
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--background-color);
+}
+
+.contacts a {
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* Portfolio */
+
+.btn-filter{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-h);
+    background-color: var(--background-btn-still);
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    
+    color: var(--background-color);
+    background-color: var(--fill);
+}
+
+.projecrts-cards-list h3 {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--text-h);
+}
+
+.projecrts-cards-list p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text);
+}
