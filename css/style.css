@@ -46,9 +46,11 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 a {
@@ -234,7 +236,12 @@ nav .item {
 
 /* WHAT DO WE DO */
 
-h2 {
+.what-we-do {
+
+    margin-bottom: 94px;
+}
+.what-we-do h2 {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -242,6 +249,12 @@ h2 {
     letter-spacing: 0.03em;
      
     color: var(--text-h);
+}
+
+.what-we-do .cases {
+
+    display: flex;
+    
 }
 
 /* OUR TEAM  */
@@ -295,12 +308,18 @@ address {
 }
 
  
-
-
-
 /* Portfolio */
 
+.btn-filters {
+
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    justify-content: center;
+}
+
 .btn-filter{
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -312,12 +331,26 @@ address {
     background-color: var(--background-btn-still);
 }
 
+.btn-filter  {
+    margin-left: 8px;
+    padding: 6px 22px;
+    min-width: 128px;
+    min-width: 38px;
+
+    border: 0px;
+    border-radius: 4px;
+   background-color: var(--background-btn-still);
+
+/* не получилось приметь псевдокас :not(:first-child) */
+}
 .btn-filter:hover,
 .btn-filter:focus {
     
     color: var(--background-color);
     background-color: var(--fill);
 }
+
+
 
 .projecrts-cards-list h3 {
 
@@ -330,7 +363,7 @@ address {
 }
 
 .projecrts-cards-list p {
-
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -338,3 +371,26 @@ address {
     
     color: var(--main-text);
 }
+
+.project-lists-wrapper {
+
+    margin-bottom: 94px;
+
+}
+.projecrts-cards-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projecrts-cards-list .projects-cards {
+    margin: 15px;
+    width: 370px;
+    height: 404px;
+}
+.img-list {
+
+    margin-bottom: 20px;
+}
+
