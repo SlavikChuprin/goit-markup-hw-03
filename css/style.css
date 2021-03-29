@@ -12,6 +12,7 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
     --background-color: #ffffff;
     --background-secondary: #2F303A;
     --fill: #2196F3;
+    --bottom-line-header: #ECECEC;
     --main-text:#757575;
     --spacial-text: #000000;
     --text-h:  #212121;
@@ -47,6 +48,7 @@ body {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 a {
     font-family: inherit;
@@ -79,6 +81,7 @@ a.logo {
     letter-spacing: 0.03em;
 
     color: var(--spacial-text);
+    margin-right: 93px;
 }
 
 .logo span {
@@ -88,21 +91,19 @@ a.logo {
 
 /* Header */
 
-/* header {
-    display: flex;
-    min-width:  1600px;
-    height: 80px;
-    align-items: center;
-    /* background-color: coral; */
-}
 
 .navigation {
-    background-color: yellow;
     display: flex;
+    align-items: center;
+    margin-bottom: 73px;
+    border-bottom: 1px solid;
+    border-color: var(--bottom-line-header);
 }
 
 nav {
     display: flex;
+    align-items: center;
+    
 }
 .nav-items .item:not(:last-child) {
 
@@ -116,10 +117,10 @@ nav {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: yellow;
 }
 .header-contacts {
     display: flex;
+    margin-left: 331px;
 } 
 
 
