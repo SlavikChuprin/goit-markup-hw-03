@@ -120,7 +120,8 @@ nav {
 }
 .header-contacts {
     display: flex;
-    margin-left: 331px;
+    margin-right: 15px;
+    margin-left: auto;
 } 
 
 
