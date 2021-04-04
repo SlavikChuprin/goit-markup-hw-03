@@ -242,8 +242,8 @@ nav .item {
 /* WHAT DO WE DO */
 
 .what-we-do {
-    padding-top: 94px;
-    /* padding-bottom: 94px; */
+    
+    padding-bottom: 94px;
     
 }
 
@@ -271,23 +271,22 @@ nav .item {
     color: var(--text-h);
 }
 
-.what-we-do .cases {
-
+.what-we-do-cases {
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
+    
 }
 
 /* OUR TEAM  */
 
 .our-team-section {
-    
+    padding-top: 94px;
     background-color: var(--background-btn-still);
 }
 
 .our-team-section h2 {
 
-    padding-top: 94px;
+    
     text-align: center;
     font-weight: 700;
     font-size: 36px;
