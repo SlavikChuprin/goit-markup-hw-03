@@ -252,7 +252,7 @@ nav .item {
     margin-bottom: 50px;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -281,12 +281,13 @@ nav .item {
 
 .our-team-section {
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--background-btn-still);
 }
 
 .our-team-section h2 {
 
-    
+    margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -300,7 +301,6 @@ nav .item {
 
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
 }
 
 .team-member + .team-member {
@@ -308,10 +308,17 @@ nav .item {
     margin-left: 30px;
     
 }
+
+.wrapper-description {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .our-team-list h3 {
 
     display: block;
-    margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -325,19 +332,17 @@ nav .item {
 .our-team-list p {
 
     display: block;
-    margin-bottom: 30px;
-
+   
     font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
     letter-spacing: 0.03em;
 
     color: var(--main-text);
 }
 
 .team-member {
-
+    width: 270px;
     text-align: center;
     background-color: var(--background-color);
     border-radius: 0px 0px 4px 4px;
@@ -345,8 +350,11 @@ nav .item {
 /* Footer */
 
 footer{
-   
-     background-color: var(--background-secondary);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    background-color: var(--background-secondary);
 }
 address {
     margin-top: 20px;
@@ -369,18 +377,18 @@ address {
    
 }
 
-.fotter-wrapper {
-
-     padding-top: 60px;
-}
  
 /* Portfolio */
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .btn-filters {
 
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -420,6 +428,8 @@ address {
 
 .projecrts-cards-list h3 {
 
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -438,13 +448,8 @@ address {
     color: var(--main-text);
 }
 
-.project-lists-wrapper {
-
-    margin-bottom: 94px;
-
-}
 .projecrts-cards-list {
-
+    margin: -15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -453,10 +458,14 @@ address {
 .projecrts-cards-list .projects-cards {
     margin: 15px;
     width: 370px;
-    height: 404px;
+    
 }
-.img-list {
 
-    margin-bottom: 20px;
+.description-card-wrapper {
+
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 

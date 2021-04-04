@@ -11,9 +11,9 @@
     <title>Портфолио</title>
 </head>
 <body>
-<div class="container">
+
     <header>
-        <div class="navigation">
+        <div class="container navigation">
         <nav>
             <a href="./index.html" aria-label="Страница WebStudio" class="logo"><span>Web</span>Studio</a>
             <ul class="nav-items">
@@ -31,8 +31,9 @@
     </header>
         
     <main>
-        <section>
 
+        <section class="portfolio">
+        <div class="container">
         <!-- Фильтр -->
         <ul class="btn-filters">
             <li><button type="button" class="btn-filter">Все</button></li>              
@@ -48,71 +49,89 @@
 <!-- Карточки проектов -->
 
 <h2 hidden>Projects Cards</h2>
-<div class="project-lists-wrapper">
+
     <ul class="projecrts-cards-list">
    
   
     <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-1.jpg" alt="Проект1" width="370">
+                <div class="description-card-wrapper">
                 <h3>Технокряк</h3>
                 <p>Веб-сайт</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-2.jpg" alt="Проект2" width="370">
+                <div class="description-card-wrapper">
                 <h3>Постер New Orlean vs Golden Star</h3>
                 <p>Дизайн</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-3.jpg" alt="Проект3" width="370">
+                <div class="description-card-wrapper">
                 <h3>Ресторан Seafood</h3>
                 <p>Приложение</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-4.jpg" alt="Проект4" width="370">
+                <div class="description-card-wrapper">
                 <h3>Проект Prime</h3>
                 <p>Маркетинг</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-5.jpg" alt="Проект5" width="370">
+                <div class="description-card-wrapper">
                 <h3>Проект Boxes</h3>
                 <p>Приложение</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-6.jpg" alt="Проект6" width="370">
+                <div class="description-card-wrapper">
                 <h3>Inspiration has no Borders</h3>
                 <p>Веб-сайт</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-7.jpg" alt="Проект7" width="370">
+                <div class="description-card-wrapper">
                 <h3>Издание Limited Edition</h3>
                 <p>Дизайн</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-8.jpg" alt="Проект8" width="370">
+            <div class="description-card-wrapper">
                 <h3>Проект LAB</h3>
                 <p>Маркетинг</p>
+            </div>
             </a>
         </li>
         <li class="projects-cards">
             <a href="#">
                 <img class="img-list" src="./images/project-9.jpg" alt="Проект9" width="370">
+            <div class="description-card-wrapper">
                 <h3>Growing Business</h3>
                 <p>Приложение</p>
+            </div>
             </a>
         </li>
     </ul>
@@ -122,14 +141,18 @@
     </main>
 
     <footer>
-        <div class="fotter-wrapper">
-        <a href="./index.html" aria-label="Страница WebStudio" class="logo"><span>Web</span><span>Studio</span></a>
-        <address class="contacts">г. Киев, пр-т Леси Украинки, 26
-             <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
-    </footer>
+        <div class="container">
+        
+        <a href="#" aria-label="Страница WebStudio" class="logo">
+            <span>Web</span><span>Studio</span></a>
+<address class="contacts">г. Киев, пр-т Леси Украинки, 26
+    <a href="mailto:info@example.com">info@example.com</a>
+    <a href="tel:+380961111111">+38 096 111 11 11</a>
+</address>
+        
         </div>
+    </footer>
+        
 </div>
 
 </body>
